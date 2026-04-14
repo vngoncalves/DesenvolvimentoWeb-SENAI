@@ -17,9 +17,3 @@ function MudarTexto(){
     novo.innerText = "Novo parágrafo";
     document.body.append(novo);
 }
-
-function EnviarDados(){
-    let nome = document.getElementById("nome").value;
-    let idade = document.getElementById("idade").value;
-    document.getElementById("paragrafo").innerText = "Nome: " + nome + "  ---- Idade: " + idade;
-}
