@@ -1,0 +1,34 @@
+#form1{
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid black;
+    background-color: antiquewhite;
+    
+}
+#form1 button {
+    background-color: blue;
+    color: white;
+    padding: 7px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 100px;
+    padding: 7px 15px;
+    border-radius: 5px;
+}
+
+#form1 p:not(:empty) {
+    background-color: rgb(38, 38, 109);
+    color: white;
+    padding: 7px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    width: 180px;
+    margin: auto;
+    margin-top: 15px;
+}
