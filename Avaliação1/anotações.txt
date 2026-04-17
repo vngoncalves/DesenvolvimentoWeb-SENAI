@@ -1,0 +1,30 @@
+<A HREF= nome do arquivo> Texto ou imagem </A>
+
+
+
+
+5.2 Enviando e-mail diretamente da página HTML
+É possível acionar o programa padrão de e-mail diretamente de uma página
+HTML usando uma variação do comando A, que usa a opção MAILTO no
+lugar da URL.
+Sintaxe: <A HREF=MAILTO:endereço de e-mail> Texto ou imagem
+</A>
+
+
+
+BORDERCOLOR=cor - dene a cor de borda da tabela. Só funci-
+ona se algum valor diferente de zero tiver sido atribuído ao parâmetro
+
+BORDER.
+
+1 - Arrumar a tabela (estilizar com bordas e etc...)
+2 - Arrumar serviços
+3 - Fontes e posições
+4 - Adicionar animações e hovers
+5 - Mudar vídeo e colocar ele em diretório
+6 - Ajustar o tamanho do background do cabeçalho
+7 - Email direto clicável no rodapé
+8 - WhatsApp direto no rodapé
+9 - Deixar responsivo para mobile
+10 - Login na página inicial
+11 - Orçamento na página destinos
