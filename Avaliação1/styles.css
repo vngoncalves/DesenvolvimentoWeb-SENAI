@@ -1,0 +1,112 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #fffafa;
+}
+
+#cabecalho {
+    background-color: #1f3a5a;
+    height: 130px;
+    color: aliceblue;
+    padding: 20px 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#menu {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+#horizonteblue{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   margin: 0;
+   font-size: 40px;
+}
+
+#jornada{
+    text-align: center;
+    margin: 40px;
+
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url('https://wallpapers.com/images/hd/paisagem-de-montanha-1920-x-1200-90qy1y47lp3kiu4o.jpg');
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 80px 20px;
+    border-radius: 10px;
+}
+
+#servicos{
+    text-align: center;
+}
+#lista-servicos{
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-left: 20px;
+}
+
+.tabela-pacotes {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  margin-top: 20px;
+}
+
+.tabela-pacotes thead {
+  background-color: #2c4a6b;
+  color: white;
+}
+
+.tabela-pacotes th {
+  text-align: left;
+  padding: 12px;
+  font-weight: bold;
+}
+
+.tabela-pacotes td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  color: #333;
+}
+
+.tabela-pacotes tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.tabela-pacotes tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+#inspiracao iframe{
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+#inspiracao{
+    background-color: #f1f1f1;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#rodape{
+    background-color: #1f3a5a;
+    height: 130px;
+    color: aliceblue;
+    padding: 20px 50px;
+    text-align: center;
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
