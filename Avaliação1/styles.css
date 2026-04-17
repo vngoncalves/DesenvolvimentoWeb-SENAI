@@ -6,7 +6,7 @@ html, body {
 
 #cabecalho {
     background-color: #1f3a5a;
-    height: 130px;
+    height: 100px;
     color: aliceblue;
     padding: 20px 50px;
 
@@ -50,6 +50,17 @@ html, body {
     border-radius: 10px;
 }
 
+#jornadatitulo{
+    font-family: "Oswald", sans-serif;
+    font-style: normal;
+    font-size: 35px;
+    font-weight: 400;
+  }
+
+#jornadadescricao{
+    font-family: "Raleway", sans-serif;
+}
+
 #servicos{
     text-align: center;
 }
@@ -60,36 +71,35 @@ html, body {
     padding-left: 20px;
 }
 
+#tabelacomparativa{
+  font-family: "Montserrat", sans-serif;
+  margin: 10px;
+}
+
 .tabela-pacotes {
   width: 100%;
   border-collapse: collapse;
   font-family: Arial, sans-serif;
   margin-top: 20px;
+  border: 1px solid #2c4a6b;
+  cursor: pointer;
 }
 
-.tabela-pacotes thead {
+.tabela-pacotes thead th {
   background-color: #2c4a6b;
   color: white;
+  border: 1px solid rgb(48, 37, 37);
 }
 
-.tabela-pacotes th {
-  text-align: left;
-  padding: 12px;
-  font-weight: bold;
-}
-
+.tabela-pacotes th,
 .tabela-pacotes td {
+  border: 1px solid #2c4a6b;
   padding: 12px;
-  border-bottom: 1px solid #ddd;
-  color: #333;
+  text-align: left;
 }
 
 .tabela-pacotes tbody tr:nth-child(even) {
-  background-color: #f9f9f9;
-}
-
-.tabela-pacotes tbody tr:hover {
-  background-color: #f1f1f1;
+  background-color: #ccc;
 }
 
 #inspiracao iframe{
@@ -101,16 +111,22 @@ html, body {
     border-radius: 10px;
 }
 
-#inspiracao{
+#inspiracao {
     background-color: #f1f1f1;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    padding-top: 13px;
     text-align: center;
+}
+
+#inspiracaoh1{
+    font-family: "Quicksand", sans-serif;
+    font-style: normal;
+    font-size: 28px;
+    font-weight: 400;
 }
 
 #rodape{
     background-color: #1f3a5a;
-    height: 130px;
+    height: 100px;
     color: aliceblue;
     padding: 20px 50px;
     text-align: center;
