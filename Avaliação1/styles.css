@@ -59,16 +59,44 @@ html, body {
 
 #jornadadescricao{
     font-family: "Raleway", sans-serif;
+    overflow: hidden;
+    white-space: nowrap;
+
+    border-right: 2px solid white;
+
+    max-width: fit-content;
+    width: 0;
+    display: inline-block;
+    margin: 0 auto;
+
+    animation-name: typing;
+    animation-duration: 5s;
+    animation-timing-function: steps(95, end);
+    animation-fill-mode: forwards;
 }
 
 #servicos{
     text-align: center;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url('https://img.freepik.com/vetores-premium/design-de-fundo-abstrato-azul-uso-de-fundo-corporativo-azul-para-negocios-corporativos-vetor_676228-184.jpg');
+    color: white;
+    margin: 40px;
+    padding: 80px 20px;
+    border-radius: 10px;
 }
+
+#servicostitulo{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 #lista-servicos{
     text-align: left;
-    max-width: 600px;
+    max-width: 450px;
     margin: 0 auto;
     padding-left: 20px;
+    font-family: "raleway", sans-serif;
 }
 
 #tabelacomparativa{
@@ -102,10 +130,11 @@ html, body {
   background-color: #ccc;
 }
 
-#inspiracao iframe{
+#inspiracao video{
     width: 100%;
-    max-width: 800px;
-    height: 450px;
+    max-width: 550px;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
     display: block;
     margin: 20px auto;
     border-radius: 10px;
@@ -133,4 +162,42 @@ html, body {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+
+#rodape a{
+    color: inherit;
+    text-decoration: none;
+}
+
+#jornadatitulo{
+    opacity: 0;
+    transform: translateY(20px);
+    animation: aparecer 1s ease forwards;
+}
+
+@keyframes aparecer{
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#jornadadescricao{
+    font-family: "Raleway", sans-serif;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid white;
+
+    width: 0;
+    animation: typing 5s steps(95, end) forwards,
+               blink 0.7s step-end infinite;
+}
+
+@keyframes typing{
+    from { width: 0 }
+    to { width: 95ch }
+}
+
+@keyframes blink{
+    50% { border-color: transparent }
 }
