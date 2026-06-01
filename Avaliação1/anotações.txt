@@ -1,6 +1,0 @@
-* Primeira coisa ao entrar no site é o login.
-* parte de orçamento na página destinos, em baixo.
-
-9 - Deixar responsivo para mobile
-10 - Login na página inicial
-11 - Orçamento na página destinos
