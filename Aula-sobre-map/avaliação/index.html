@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake Store</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+    <h1>Lista de Produtos</h1>
+    
+    <div id="divbtn">
+        <button class="btn-carrinho" onclick="abrirCarrinho()">Carrinho (0)</button>
+    </div>
+
+    <div id="produtos"></div>
+
+    <div id="modal-carrinho" class="modal">
+        <div class="modal-conteudo">
+            <span class="fechar" onclick="fecharCarrinho()">&times;</span>
+            <h2>Seu Carrinho</h2>
+            <div id="itens-carrinho"></div>
+            <div id="total-carrinho">
+                <strong>Total: $0.00</strong>
+            </div>
+
+            <div class="botoes-carrinho">
+                <button id="comprarcart">Comprar</button>
+                <button id="limparcart" onclick="limparCarrinho()">Limpar Carrinho</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
