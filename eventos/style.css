@@ -1,0 +1,15 @@
+#texto{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin:20px;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
